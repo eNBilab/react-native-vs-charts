@@ -28,3 +28,10 @@ node_modules
 
 # OSX
 .DS_Store
+
+# Android/IntelliJ
+#
+*.iml
+.idea
+.gradle
+local.properties
