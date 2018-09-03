@@ -9,19 +9,15 @@
  */
 'use strict';
 
-var ViewStyleCharts = {
-  // components
-  Axes: require('./lib/Axes'),
-  BarChart: require('./lib/BarChart'),
-  LineChart: require('./lib/LineChart'),
-  // prop types
-  AxisStylePropTypes: require('./lib/AxisStylePropTypes'),
-  DatasetPropType: require('./lib/DatasetPropType'),
-  ScalePropType: require('./lib/ScalePropType'),
-  // helper functions
-  generateScale: require('./lib/generateScale'),
-  makeRange: require('./lib/makeRange'),
-  resolveDatasets: require('./lib/resolveDatasets')
-};
-
-module.exports = ViewStyleCharts;
+// components
+export { default as Axes }from './lib/Axes';
+export { default as BarChart }from './lib/BarChart';
+export { default as LineChart }from './lib/LineChart';
+// prop types
+export { default as AxisStylePropTypes }from './lib/AxisStylePropTypes';
+export { default as DatasetPropType }from './lib/DatasetPropType';
+export { default as ScalePropType }from './lib/ScalePropType';
+// helper functions
+export { default as generateScale }from './lib/generateScale';
+export { default as makeRange }from './lib/makeRange';
+export { default as resolveDatasets } from './lib/resolveDatasets';
