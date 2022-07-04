@@ -13,10 +13,6 @@
 export { default as Axes }from './lib/Axes';
 export { default as BarChart }from './lib/BarChart';
 export { default as LineChart }from './lib/LineChart';
-// prop types
-export { default as AxisStylePropTypes }from './lib/AxisStylePropTypes';
-export { default as DatasetPropType }from './lib/DatasetPropType';
-export { default as ScalePropType }from './lib/ScalePropType';
 // helper functions
 export { default as generateScale }from './lib/generateScale';
 export { default as makeRange }from './lib/makeRange';
